@@ -42,7 +42,7 @@ h1, h2, h3 {
 
 #navbarSup {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 10px; 
 }
@@ -171,19 +171,20 @@ h1 {
     font-family: none;
 }
 
-@media (max-width: 768px){
-    nav {
-        display: flex;
-        flex-direction: column;
+@media (max-width: 800px){
+
+    #logo {
+        width: 80px;
+        height: 50px;
     }
 
-    #navbarSup .favoritos {
-        display: none;
+    #usuarios li a {
+        font-size: 15px;
     }
 
     #navbarSup section input {
         width: 300px;
-        height: 40px;
+        height: 30px;
         border-radius: 20px;
     }
 
@@ -198,6 +199,21 @@ h1 {
 
     .redes {
     margin: 20px;
+    }
+}
+
+@media (max-width: 425px){    
+    .cuenta , .favoritos {
+        display: none;
+    }
+    
+    #navbarSup section input {
+        width: 200px;
+        height: 30px;
+        }
+    
+    #navbarInf ul li {
+        flex-direction: column;
     }
 }
 
@@ -248,13 +264,27 @@ h1 {
     align-self: center; 
 }
 
-@media (max-width: 768px){
+@media (max-width: 800px){
+    
     .sectionInicio {
         height: 70vh;
     }
 
     .h1Index {
-        margin: 10px;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 425px){
+    
+    .infoIndex{
+        display: none;
+    }
+
+    .sectionRecomendados{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
 
