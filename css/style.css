@@ -1,0 +1,322 @@
+
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none!important;
+    list-style: none;
+}
+
+/* Estilos paginas en general */
+
+#body {
+    max-width: 1400px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#header {
+    background-color: #322FCF;
+    width: 100%;
+    min-height: 130px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+
+#logo{
+    width: 100px;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+#navbarSup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px; 
+}
+
+.menu-hamburguesa {
+    display: none; 
+    color: white;
+    font-size: 20px;
+}
+
+
+#navbarSup section input {
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.busqueda {
+    height: 100%;
+}
+
+.busqueda i {
+    color: white;
+}
+
+#usuarios {
+    display: flex; 
+}
+
+#usuarios li {
+    margin: 0 20px;
+}
+
+#usuarios li a {
+    font-size: 20px;
+    color: white;
+}
+
+#navbarInf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#navbarInf ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#navbarInf ul li a {
+    color: white;
+}
+
+a:hover {
+    color: black !important;
+}
+
+#main {
+    margin-top: 130px;  
+    background-color: #d9d9d9;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+#footer {
+    display: flex;
+    background-color: #322FCF;
+    color: white; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+#info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.info--contacto {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: auto;
+}
+
+.info--contacto i {
+    font-size: 30px;
+}
+
+.info--contacto p {
+    display: flex;
+    flex-direction: column;  
+    overflow-wrap: break-word; 
+    text-align: left; 
+}
+
+.info--contacto p span {
+    display: block; 
+}
+
+#footer article p {
+    margin: 0;
+}
+
+.buttonFooter {
+    background-color: #d9d9d9;
+}
+
+.redes a {
+    margin: 30px;
+    font-size: 25px;
+    color: white;
+}
+
+.derechos {
+    font-size: 15px;
+    text-align: right;
+    margin-top: 30px;
+    font-family: none;
+}
+
+@media (max-width: 768px){
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navbarSup .favoritos {
+        display: none;
+    }
+
+    #navbarSup section input {
+        width: 300px;
+        height: 40px;
+        border-radius: 20px;
+    }
+
+    #footer {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    #footer #logo {
+        display: none;
+    }
+
+    .redes {
+    margin: 20px;
+    }
+}
+
+/* Inicio */
+.sectionInicio {
+    width: 100%;
+    height: 100vh;
+}
+
+.sectionRecomendados h2 {
+    margin: 15px;
+}
+
+.infoIndex {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px; 
+}
+
+.mediosdepago , .envios , .garantia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    margin: 5px 10px;
+    padding: 10px;
+}
+
+.mediosdepago img {
+    width: 230px;
+    height: 28px;
+    margin-bottom: 10px;
+}
+
+.envios i, .garantia i {
+    font-size: 20px; 
+    margin-bottom: 10px; 
+}
+
+.separador {
+    width: 1px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    height: 50px;
+    margin: 0 10px;
+    align-self: center; 
+}
+
+@media (max-width: 768px){
+    .sectionInicio {
+        height: 70vh;
+    }
+
+    .h1Index {
+        margin: 10px;
+    }
+}
+
+
+/* Equipos y Accesorios */
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.tarjetaArticulos {
+    width: 300px;
+    border: solid 1px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.imgTarjetas {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonComprar {
+    background-color: antiquewhite;
+}
+
+/* Acerca de */
+
+.sectionAcercade {
+    margin: 20px;
+}
+
+/* Contacto */
+
+.pContacto {
+    text-align: center;
+}
+
+.fuenteContacto {
+    font-size: 15px;
+    color: black;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: solid 3px;
+    color: #322FCF;
+    padding: 20px;
+}
+
+.formulario {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.tya {
+    padding: 10px;
+    text-align: center;
+}
