@@ -25,7 +25,7 @@ h1, h2, h3 {
 #header {
     background-color: #322FCF;
     width: 100%;
-    min-height: 130px;
+    min-height: 120px;
     position: fixed;
     top: 0;
     left: 0;
@@ -50,22 +50,13 @@ h1, h2, h3 {
 .menu-hamburguesa {
     display: none; 
     color: white;
-    font-size: 20px;
 }
 
 
 #navbarSup section input {
     width: 500px;
     height: 40px;
-    border-radius: 20px;
-}
-
-.busqueda {
-    height: 100%;
-}
-
-.busqueda i {
-    color: white;
+    border-radius: 10px;
 }
 
 #usuarios {
@@ -85,7 +76,6 @@ h1, h2, h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 0;
 }
 
 #navbarInf ul li {
@@ -98,11 +88,11 @@ h1, h2, h3 {
 }
 
 a:hover {
-    color: black !important;
+    color: rgb(102, 101, 101) !important;
 }
 
 #main {
-    margin-top: 130px;  
+    margin-top: 120px;  
     background-color: #d9d9d9;
     padding: 0;
 }
@@ -171,21 +161,64 @@ h1 {
     font-family: none;
 }
 
-@media (max-width: 800px){
+@media (max-width: 768px){
 
-    #logo {
-        width: 80px;
-        height: 50px;
+    #header {
+        min-height: 100px;
     }
 
-    #usuarios li a {
-        font-size: 15px;
+    #main {
+        margin-top: 100px !important;
     }
 
+    .favoritos {
+        display: none;
+    }
+    
     #navbarSup section input {
         width: 300px;
-        height: 30px;
-        border-radius: 20px;
+        height: 40px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #navbarInf {
+        position: absolute;
+        right: 30px;
+        top: 25px;
+        background-color: #322FCF;
+    }
+
+    #navbarInf ul {
+        display: none;
+        position: absolute; 
+        flex-direction: column;
+        align-items: center;
+        top: 100%;
+        background-color: #322FCF;
+        transition: 0.2s;
+        z-index: 10;
+        padding: 15px 0;
+        margin-right: 50px;
+    }
+
+    .menu-hamburguesa {
+        display: block;
+        font-size: 25px;
+    }
+
+    .menu-hamburguesa:hover + ul {
+        display: flex !important;
+    }
+
+    #navbarInf ul:hover {
+        display: flex !important;
+    }
+
+    #main {
+        margin-top: 120px;
     }
 
     #footer {
@@ -203,18 +236,17 @@ h1 {
 }
 
 @media (max-width: 425px){    
-    .cuenta , .favoritos {
-        display: none;
+     /* Ajustes del logo para pantallas más pequeñas */
+    #logo {
+        width: 60px;
     }
-    
-    #navbarSup section input {
-        width: 200px;
-        height: 30px;
-        }
-    
-    #navbarInf ul li {
-        flex-direction: column;
+
+    /* Reducir el tamaño de los iconos de usuarios en pantallas pequeñas */
+    #usuarios li a {
+        font-size: 18px;
     }
+
+    /* Ajustes adicionales si son necesarios */
 }
 
 /* Inicio */
@@ -231,8 +263,6 @@ h1 {
     display: flex;
     justify-content: space-between;
     background-color: white;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 5px; 
 }
 
 .mediosdepago , .envios , .garantia {
@@ -264,14 +294,23 @@ h1 {
     align-self: center; 
 }
 
-@media (max-width: 800px){
+@media (max-width: 768px){
     
     .sectionInicio {
-        height: 70vh;
+        height: 65vh;
     }
 
     .h1Index {
-        margin: 20px;
+        margin: 25px 5px 15px 5px;
+        font-size: 20px;
+    }
+
+    .infoIndex {
+        height: 100px;
+    }
+
+    .sectionRecomendados h2 {
+        font-size: 20px;
     }
 }
 
