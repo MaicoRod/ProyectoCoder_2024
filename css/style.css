@@ -17,7 +17,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5  {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -236,17 +236,7 @@ h1 {
 }
 
 @media (max-width: 425px){    
-     /* Ajustes del logo para pantallas más pequeñas */
-    #logo {
-        width: 60px;
-    }
-
-    /* Reducir el tamaño de los iconos de usuarios en pantallas pequeñas */
-    #usuarios li a {
-        font-size: 18px;
-    }
-
-    /* Ajustes adicionales si son necesarios */
+   
 }
 
 /* Inicio */
@@ -330,16 +320,23 @@ h1 {
 
 /* Equipos y Accesorios */
 
+.h1Equipos {
+    margin-top: 160px;
+}
+
 .contenedor {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 20px;
+    gap: 20px;
 }
 
 .tarjetaArticulos {
     width: 300px;
+    height: auto;
     border: solid 1px;
-    background-color: aliceblue;
+    background-color: white;
     text-align: center;
 }
 
@@ -347,6 +344,10 @@ h1 {
     max-width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.tarjetaArticulos p {
+    font-size: 18px;
 }
 
 .buttonComprar {
