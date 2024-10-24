@@ -361,7 +361,7 @@ h1 {
 
 /* Equipos y Accesorios */
 
-.h1Equipos {
+.h1Equipos, .h1Accesorios {
     margin-top: 160px;
 }
 
