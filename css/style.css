@@ -200,7 +200,7 @@ h1 {
         background-color: #322FCF;
         transition: 0.2s;
         z-index: 10;
-        padding: 15px 0;
+        padding: 10px 0;
         margin-right: 50px;
     }
 
@@ -236,13 +236,34 @@ h1 {
 }
 
 @media (max-width: 425px){    
-   
+
+    #navbarSup section input {
+        display: none;
+    }
+
+    #footer {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    #footer #logo {
+        display: none;
+    }
+
+    .redes {
+    margin: 20px;
+    }
 }
 
 /* Inicio */
+
 .sectionInicio {
     width: 100%;
     height: 100vh;
+}
+
+.sectionRecomendados {
+    width: 100%;
 }
 
 .sectionRecomendados h2 {
@@ -301,17 +322,37 @@ h1 {
 
     .sectionRecomendados h2 {
         font-size: 20px;
+        text-align: center;
     }
 }
 
 @media (max-width: 425px){
     
+    .sectionInicio {
+        height: 35vh;
+    }
+
+    .h1Index {
+        font-size: 15px;
+    }
+
     .infoIndex{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .separador{
         display: none;
+    }
+
+    .sectionRecomendados h2 {
+        font-size: 15px;
     }
 
     .sectionRecomendados{
         display: flex;
+        justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
     }
