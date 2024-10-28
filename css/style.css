@@ -457,6 +457,7 @@ h1 {
 .fuenteContacto {
     font-size: 15px;
     color: black;
+    margin-bottom: 0;
 }
 
 fieldset {
