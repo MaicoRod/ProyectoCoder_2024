@@ -7,7 +7,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none!important;
-    list-style: none;
 }
 
 /* Estilos paginas en general */
@@ -30,6 +29,7 @@ h1, h2, h3, h4, h5  {
     top: 0;
     left: 0;
     z-index: 10;
+    list-style: none;
 }
 
 
@@ -100,6 +100,10 @@ a:hover {
 h1 {
     text-align: center;
     margin: 20px;
+}
+
+.titulos {
+    margin-top: 160px;
 }
 
 #footer {
@@ -362,20 +366,13 @@ h1 {
     }
 }
 
-
 /* Equipos y Accesorios */
-
-.h1Equipos, .h1Accesorios {
-    margin-top: 160px;
-}
 
 .contenedor {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 20px;
     margin-bottom: 0;
-    gap: 20px;
 }
 
 .tarjetaArticulos {
@@ -384,6 +381,7 @@ h1 {
     border: solid 1px;
     background-color: white;
     text-align: center;
+    margin: 20px;
 }
 
 .imgTarjetas {
@@ -427,7 +425,12 @@ h1 {
 /* Acerca de */
 
 .sectionAcercade {
-    margin: 20px;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+.sectionAcercade p {
+    margin-bottom: 0;
 }
 
 /* Contacto */
