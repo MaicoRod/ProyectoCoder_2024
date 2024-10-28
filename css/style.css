@@ -376,7 +376,7 @@ h1 {
 }
 
 .tarjetaArticulos {
-    width: 300px;
+    width: 18rem;
     height: auto;
     border: solid 1px;
     background-color: white;
@@ -408,9 +408,10 @@ h1 {
     
     .tarjetaArticulos {
         height: 420px;
+        width: 100%;
         margin: 15px;
     }
-    
+
     .imgTarjetas {
         max-width: 100%;
         display: flex;
@@ -477,3 +478,5 @@ fieldset {
     padding: 10px;
     text-align: center;
 }
+
+
