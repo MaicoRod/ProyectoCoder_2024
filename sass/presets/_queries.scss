@@ -106,14 +106,30 @@
         }
     
         .tarjetaArticulos {
-            margin: 10px; /* Espacio entre tarjetas */
-            flex: 1 1 40%; /* Permitir que las tarjetas se ajusten */
+            margin: 10px; 
+            flex: 1 1 40%;
         }
     }
 }
 
+@media (max-width: 660px) {
+    
+    .sectionInicio {
+        height: 45vh;
+    }
+    .infoIndex{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        
+        .separador{
+            display: none;
+        }
 
-@media (max-width: 425px){
+    }
+}
+
+@media (max-width: 425px) {
 
     .sectionInicio {
         height: 30vh;

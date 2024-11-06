@@ -219,8 +219,21 @@ h1, h2, h3, h4, h5 {
     padding: 0 10px; /* Espacio a los lados */
   }
   .sectionRecomendados .tarjetaArticulos {
-    margin: 10px; /* Espacio entre tarjetas */
-    flex: 1 1 40%; /* Permitir que las tarjetas se ajusten */
+    margin: 10px;
+    flex: 1 1 40%;
+  }
+}
+@media (max-width: 660px) {
+  .sectionInicio {
+    height: 45vh;
+  }
+  .infoIndex {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .infoIndex .separador {
+    display: none;
   }
 }
 @media (max-width: 425px) {
