@@ -1,0 +1,68 @@
+#footer {
+    display: flex;
+    width: 100vw;
+    background-color: #322FCF;
+    color: white; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+
+    #info {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .info--contacto {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            width: auto;
+            
+            i {
+                font-size: 30px;
+            }
+
+            p {
+                display: flex;
+                flex-direction: column;  
+                overflow-wrap: break-word; 
+                text-align: left;
+                
+                span {
+                    display: block; 
+                }
+            }
+        }
+    }
+
+    article { 
+        
+        p {
+            margin: 0;
+        }
+
+        .buttonFooter {
+            background-color: #d9d9d9;
+        }
+    }
+
+    .redes {
+    
+        a {
+            margin: 30px;
+            font-size: 25px;
+            color: white;
+        }
+        
+        .derechos {
+            font-size: 15px;
+            text-align: right;
+            margin-top: 30px;
+            font-family: none;
+        }
+        
+    }
+}
+
+

@@ -1,0 +1,32 @@
+/* Equipos y Accesorios */
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    
+    .tarjetaArticulos {
+        width: 18rem;
+        height: auto;
+        border: solid 1px;
+        background-color: white;
+        text-align: center;
+        margin: 20px;
+        
+        p {
+            font-size: 18px;
+        }
+
+        .btn{
+            border-radius: 0 !important;
+            background-color: white !important;
+            color: blue !important;
+            &:hover {
+                background-color: blue !important;
+                color: white !important;
+            }
+        }
+    }
+}
+

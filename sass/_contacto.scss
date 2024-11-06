@@ -1,0 +1,31 @@
+/* Contacto */
+
+.pContacto {
+    text-align: center;
+}
+
+.formulario {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    padding: 20px;
+    fieldset {
+        display: flex;
+        flex-direction: column;
+        border: solid 2px;
+        color: #322FCF;
+        padding: 20px;
+        .fuenteContacto {
+            font-size: 15px;
+            color: black;
+            margin: 10px 0;
+            margin-bottom: 0;
+        }
+        .tya {
+            padding: 10px;
+            text-align: center;
+        }
+    }
+}
+
+
