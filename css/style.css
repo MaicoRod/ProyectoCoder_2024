@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5 {
   list-style: none;
 }
 #header #logo {
-  width: 100px;
+  width: 120px;
   height: 70px;
   margin: 0;
   padding: 0;
@@ -442,6 +442,10 @@ h1, h2, h3, h4, h5 {
 }
 .sectionAcercade h2 {
   text-align: center;
+}
+.sectionAcercade a {
+  text-decoration: none;
+  color: black;
 }
 
 .imgAcercade {
