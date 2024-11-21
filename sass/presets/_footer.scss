@@ -1,8 +1,8 @@
 #footer {
     display: flex;
     width: 100%;
-    background-color: #322FCF;
-    color: white; 
+    background-color: $principal;
+    color: $secundario; 
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
@@ -45,7 +45,7 @@
         }
 
         .buttonFooter {
-            background-color: #d9d9d9;
+            background-color: $fondo;
         }
     }
 
@@ -54,7 +54,7 @@
         a {
             margin: 30px;
             font-size: 25px;
-            color: white;
+            color: $secundario;
         }
         
         .derechos {

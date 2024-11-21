@@ -1,22 +1,18 @@
 /*Estilos en General*/
-@use "presets/resets";
-@use "presets/header";
-@use "presets/main";
-@use "presets/footer";
-
-
-
+@import "presets/resets";
+@import "presets/colors";
+@import "presets/header";
+@import "presets/main";
+@import "presets/footer";
 
 /*Media Queries*/
-
-@use "presets/queries";
+@import "presets/queries";
 
 /*Pages*/
-
-@use "index";
-@use "equiposyacc";
-@use "contacto";
-@use "acercade";
+@import "index";
+@import "equiposyacc";
+@import "contacto";
+@import "acercade";
 
 
 

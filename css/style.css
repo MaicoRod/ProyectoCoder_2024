@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5 {
   font-family: "Montserrat", sans-serif;
 }
 
+/* Colores */
 #header {
   background-color: #322FCF;
   width: 100%;
@@ -219,7 +220,7 @@ h1, h2, h3, h4, h5 {
     text-align: center;
   }
   .sectionRecomendados .carousel-inner {
-    padding: 0 10px; /* Espacio a los lados */
+    padding: 0 10px;
   }
   .sectionRecomendados .tarjetaArticulos {
     margin: 10px;
@@ -333,7 +334,7 @@ h1, h2, h3, h4, h5 {
 .sectionRecomendados .tarjetaArticulos a {
   border-radius: 0;
   background-color: white;
-  color: #322fcf;
+  color: #322FCF;
 }
 .sectionRecomendados .tarjetaArticulos:hover {
   box-shadow: rgb(102, 101, 101);

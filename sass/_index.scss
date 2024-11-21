@@ -21,12 +21,12 @@
         
         a {
         border-radius: 0;
-        background-color: white;
-        color: #322fcf;
+        background-color: $secundario;
+        color: $principal;
         }
 
         &:hover{
-            box-shadow: rgb(102, 101, 101);
+            box-shadow: $hover;
             transform: translateY(-5px);
         }
     }
@@ -37,7 +37,7 @@
 .infoIndex {
     display: flex;
     justify-content: space-around;
-    background-color: white;
+    background-color: $secundario;
 
     .mediosdepago , .envios , .garantia {
         display: flex;
@@ -63,7 +63,7 @@
 
     .separador {
         width: 1px; 
-        background-color: rgba(0, 0, 0, 0.5); 
+        background-color: $separador; 
         height: 50px;
         margin: 0 10px;
         align-self: center; 

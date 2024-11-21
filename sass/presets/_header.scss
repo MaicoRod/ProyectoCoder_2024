@@ -1,5 +1,5 @@
 #header {
-    background-color: #322FCF;
+    background-color: $principal;
     width: 100%;
     min-height: 120px;
     position: fixed;
@@ -38,10 +38,10 @@
                 
                 a {
                     font-size: 20px;
-                    color: white;
+                    color: $secundario;
                     
                     &:hover {
-                        color: rgb(102, 101, 101) !important;
+                        color: $hover !important;
                     }
                 }
             }
@@ -61,10 +61,10 @@
                 margin: 0 20px;
 
                 a {
-                    color: white;
+                    color: $secundario;
 
                     &:hover {
-                        color: rgb(102, 101, 101) !important;
+                        color: $hover !important;
                     }
                 }
             }
@@ -72,7 +72,7 @@
         
         .menu-hamburguesa {
             display: none; 
-            color: white;
+            color: $secundario;
         }
 
     }
