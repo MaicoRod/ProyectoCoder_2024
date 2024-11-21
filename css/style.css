@@ -206,6 +206,33 @@ h1, h2, h3, h4, h5 {
     display: none;
   }
 }
+@media (max-width: 375px) {
+  #header {
+    min-height: 80px;
+  }
+  #header #navbarSup #logo {
+    width: 80px;
+    height: 50px;
+  }
+  #header #navbarSup #usuarios li a {
+    font-size: 20px;
+  }
+  #header #navbarInf {
+    bottom: 35px;
+  }
+  #header #navbarInf .menu-hamburguesa {
+    font-size: 20px;
+  }
+  #main {
+    margin-top: 80px !important;
+  }
+  #footer #info .info--contacto i {
+    font-size: 20px;
+  }
+  #footer #info .info--contacto p span {
+    font-size: 15px;
+  }
+}
 /*Media Queries Inicio*/
 @media (max-width: 768px) {
   .h1Index {
@@ -278,6 +305,11 @@ h1, h2, h3, h4, h5 {
     color: #322FCF;
   }
 }
+@media (max-width: 375px) {
+  .sectionInicio {
+    height: 25vh;
+  }
+}
 /*Media Queries Equipos y Accesorios*/
 @media (max-width: 768px) {
   .contenedor {
@@ -308,6 +340,12 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 425px), (max-width: 660px) {
   #main .formulario {
     width: 400px;
+    height: 500px;
+  }
+}
+@media (max-width: 375px) {
+  #main .formulario {
+    width: 350px;
     height: 500px;
   }
 }
